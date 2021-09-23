@@ -101,7 +101,16 @@ class Point {
       }
       return found;
     }
-  
+    clear(){
+      this.points = [];
+      if(this.divided){
+        this.northwest.clear();
+        this.northeast.clear();
+        this.southwest.clear();
+        this.southeast.clear();
+      }
+      this.divided = false;
+    }
     show() {
       stroke(255);
       noFill();
