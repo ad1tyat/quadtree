@@ -81,15 +81,13 @@ function draw() {
     textSize(20);
     // fill();
     let sentence = "There are " + pts + " points in the selected square";
-    console.log(sentence);
+    // console.log(sentence);
     
     fill(0);
     text(sentence, 50, 550); // Text wraps within text box
     
     }
   }
-    
-
 }
 function CountInRange() {
   if(!showRec){
