@@ -55,16 +55,17 @@ function draw() {
 
 
 
-  // console.log(val);
   if(mouseIsPressed && insideRect()){
     let val = slider.value();
     f = 0;
     for(let id = 0;id<val;id++){
-      let x = randomGaussian(-10, +10);
-      let y = randomGaussian(-10, +10);
+      let x = randomGaussian(-5, +5);
+      let y = randomGaussian(-5, +5);
       let m = new Point(mouseX + x, mouseY + y);
       qtree.insert(m);   
     }
+    // To avoid multiple points on single mouse click 
+    for(let delay = 0; delay <1000;) {delay++;}
   }
   if(showRec == 1){
   // This check has been introduced due to a bug discussed in https://github.com/CodingTrain/website/pull/556
