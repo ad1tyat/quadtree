@@ -4,7 +4,7 @@ let showRec = 0;
 function setup() {
   createCanvas(600, 600);
   let boundary = new Rectangle( 250, 250, 250, 250);
-  qtree = new QuadTree(boundary, 4);
+  qtree = new QuadTree(boundary, 1);
 
   button = createButton("Clear");
   button.mouseClicked(ClearButton);
