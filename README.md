@@ -12,7 +12,8 @@
 
 ### 3. Count points in given range ( Increase or Decrease range !)  
 <img src="https://github.com/ad1tyat/quadtree/blob/master/videos/op3.gif" width="600" height="450" />  
-<hr>
+<hr>  
+
 ## Made by :
 - [Atharva Varde](https://github.com/varde2407) | [Linkedin](https://www.linkedin.com/in/atharva-varde-643a05197/) 
 - [Aditya Trivedi](https://github.com/ad1tyat) | [Linkedin](https://www.linkedin.com/in/trivedi-aditya/) 
