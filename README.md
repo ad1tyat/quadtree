@@ -1,6 +1,6 @@
 # Basic Quadtree Visualiser 
 ## [website](https://quadtree.herokuapp.com/)
-## [Presentation](https://github.com/ad1tyat/quadtree/Presentation.pdf) on Quadtrees for CS502
+## [Presentation](https://github.com/ad1tyat/quadtree/blob/master/Presentation.pdf) on Quadtrees for CS502
 
 ### 1. Add points dynamically in quadtree  
 <img src="https://github.com/ad1tyat/quadtree/blob/master/videos/op1.gif" width="600" height="450" />  
